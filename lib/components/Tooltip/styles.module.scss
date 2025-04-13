@@ -1,0 +1,40 @@
+/* load font */
+@font-face {
+  font-family: "metronic";
+  src: url("../fonts/metronicforblizzard.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "metronic";
+  src: url("../fonts/metronicforblizzard-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.tooltip {
+  padding: 1rem;
+  font-family: metronic;
+  background-color: #140937;
+  font-size: 1rem;
+  border: 2px solid #6565a8;
+  display: flex;
+  flex-direction: column;
+
+  // Anti aliasing
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.title {
+  font-weight: bold;
+  color: #ebf6ff;
+  text-shadow: #ebf6ff 0px 0px 1px;
+}
+.subTitle {
+  color: #bfd4fd;
+  margin: 0.25rem 0px;
+}
+.content {
+  line-height: 1.5rem;
+  color: #8581e3;
+}
