@@ -1,0 +1,30 @@
+/* load font */
+@font-face {
+  font-family: "metronic";
+  src: url("../lib/components/fonts/metronicforblizzard.otf") format("opentype");
+}
+@font-face {
+  font-family: "metronic";
+  src: url("../lib/components/fonts/metronicforblizzard-bold.otf")
+    format("opentype");
+  font-weight: bold;
+}
+
+:root {
+  /* Tag */
+  /* Ability */
+  --tag-text-color-ability: #7999f5;
+  --tag-border-color-ability: #3c3e7b;
+
+  /* Active */
+  --tag-text-color-active: #c8558e;
+  --tag-border-color-active: #893c63;
+
+  /* Passive */
+  --tag-text-color-passive: #52ae9f;
+  --tag-border-color-passive: #265d60;
+
+  /* Heroic */
+  --tag-text-color-heroic: #bda15a;
+  --tag-border-color-heroic: #675f3f;
+}

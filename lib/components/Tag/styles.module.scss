@@ -1,0 +1,71 @@
+// Load base css
+@import "../../base.css";
+
+.PASSIVE {
+  border-color: var(--tag-border-color-passive);
+  background-color: rgb(from var(--tag-text-color-passive) r g b / 15%);
+  color: var(--tag-text-color-passive);
+}
+.ACTIVE {
+  border-color: var(--tag-border-color-active);
+  background-color: rgb(from var(--tag-text-color-active) r g b / 15%);
+  color: var(--tag-text-color-active);
+}
+.ABILITY {
+  border-color: var(--tag-border-color-ability);
+  background-color: rgb(from var(--tag-text-color-ability) r g b / 15%);
+  color: var(--tag-text-color-ability);
+}
+.HEROIC {
+  border-color: var(--tag-border-color-heroic);
+  background-color: rgb(from var(--tag-text-color-heroic) r g b / 15%);
+  color: var(--tag-text-color-heroic);
+}
+
+.arrowIcon {
+  position: relative;
+  left: 2rem;
+  z-index: 999;
+  width: 2.75rem;
+  height: 2.25rem;
+  top: -0.25rem;
+}
+
+.questIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  opacity: 0.7;
+  font-family: metronic;
+  border: 2px solid;
+  border-radius: 5px;
+  // padding: 4px;
+  font-size: 1.25rem;
+  box-shadow: 0px 0px 1px #000000;
+  text-shadow: 0px 0px 1px #000000;
+  backdrop-filter: opacity(0.1);
+  font-weight: bold;
+  // Anti aliasing
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagText {
+  padding: 4px;
+}
+.hasArrowIcon {
+  padding-left: 1.75rem;
+}
